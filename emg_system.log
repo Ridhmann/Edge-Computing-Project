@@ -1,0 +1,360 @@
+2026-04-26 10:26:56 | INFO     | __main__ | === EMG Preprocessing Pipeline ===
+2026-04-26 10:26:56 | INFO     | __main__ | Loading EMG CSV: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 10:27:04 | INFO     | __main__ |   Loaded shape: (4237907, 8)  |  Classes: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 31 32 33 34 35 36]
+2026-04-26 10:27:04 | INFO     | __main__ | Combined dataset: 4237907 samples from 1 files
+2026-04-26 10:27:04 | INFO     | __main__ | Preprocessing signals: shape=(4237907, 8)  fs=1000 Hz
+2026-04-26 10:27:12 | INFO     | __main__ | Windowed: 84755 windows  |  window_size=200  step=50
+2026-04-26 10:27:21 | INFO     | __main__ | After augmentation: 254265 windows
+2026-04-26 10:27:36 | INFO     | __main__ |   [train] X:(177985, 200, 8)  y:(177985,)
+2026-04-26 10:27:38 | INFO     | __main__ |   [val] X:(38140, 200, 8)  y:(38140,)
+2026-04-26 10:27:40 | INFO     | __main__ |   [test] X:(38140, 200, 8)  y:(38140,)
+2026-04-26 10:27:40 | INFO     | __main__ | Splits saved to C:\Users\msi\Downloads\files (3)\data\processed
+2026-04-26 10:27:40 | INFO     | __main__ | === Preprocessing complete — data saved to C:\Users\msi\Downloads\files (3)\data\processed ===
+2026-04-26 10:28:18 | INFO     | __main__ | Device: cpu
+2026-04-26 10:28:18 | INFO     | __main__ | Built CNN1D        | Params: 461,509
+2026-04-26 10:28:22 | INFO     | __main__ | DataLoaders | train:177985  val:38140  test:38140
+2026-04-26 10:28:25 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 10:28:25 | INFO     | __main__ |   Training CNN1D        | epochs=80 | batch=32 | device=cpu
+2026-04-26 10:28:25 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 10:33:20 | INFO     | __main__ | === EMG Preprocessing Pipeline ===
+2026-04-26 10:33:20 | INFO     | __main__ | Loading EMG CSV: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 10:33:26 | INFO     | __main__ |   Loaded shape: (4237907, 8)  |  Classes: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 31 32 33 34 35 36]
+2026-04-26 10:33:26 | INFO     | __main__ | Combined dataset: 4237907 samples from 1 files
+2026-04-26 10:33:26 | INFO     | __main__ | Preprocessing signals: shape=(4237907, 8)  fs=1000 Hz
+2026-04-26 10:33:34 | INFO     | __main__ | Windowed: 84755 windows  |  window_size=200  step=50
+2026-04-26 10:33:43 | INFO     | __main__ | After augmentation: 254265 windows
+2026-04-26 10:33:56 | INFO     | __main__ |   [train] X:(177985, 200, 8)  y:(177985,)
+2026-04-26 10:33:57 | INFO     | __main__ |   [val] X:(38140, 200, 8)  y:(38140,)
+2026-04-26 10:33:58 | INFO     | __main__ |   [test] X:(38140, 200, 8)  y:(38140,)
+2026-04-26 10:33:59 | INFO     | __main__ | Splits saved to C:\Users\msi\Downloads\files (3)\data\processed
+2026-04-26 10:33:59 | INFO     | __main__ | === Preprocessing complete — data saved to C:\Users\msi\Downloads\files (3)\data\processed ===
+2026-04-26 10:34:22 | INFO     | __main__ | Device: cpu
+2026-04-26 10:34:22 | INFO     | __main__ | Built CNN1D        | Params: 461,509
+2026-04-26 10:34:25 | INFO     | __main__ | DataLoaders | train:177985  val:38140  test:38140
+2026-04-26 10:34:29 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 10:34:29 | INFO     | __main__ |   Training CNN1D        | epochs=80 | batch=32 | device=cpu
+2026-04-26 10:34:29 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 16:46:37 | INFO     | __main__ | === EMG Preprocessing Pipeline ===
+2026-04-26 16:46:37 | INFO     | __main__ | Loading EMG CSV: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 16:46:41 | INFO     | __main__ |   Loaded shape: (4237907, 8)  |  Classes: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 31 32 33 34 35 36]
+2026-04-26 16:46:41 | INFO     | __main__ | Combined dataset: 4237907 samples from 1 files
+2026-04-26 16:46:41 | INFO     | __main__ | Preprocessing signals: shape=(4237907, 8)  fs=1000 Hz
+2026-04-26 16:46:48 | INFO     | __main__ | Windowed: 84755 windows  |  window_size=200  step=50
+2026-04-26 16:46:54 | INFO     | __main__ | After augmentation: 254265 windows
+2026-04-26 16:47:04 | INFO     | __main__ |   [train] X:(177985, 200, 8)  y:(177985,)
+2026-04-26 16:47:05 | INFO     | __main__ |   [val] X:(38140, 200, 8)  y:(38140,)
+2026-04-26 16:47:06 | INFO     | __main__ |   [test] X:(38140, 200, 8)  y:(38140,)
+2026-04-26 16:47:06 | INFO     | __main__ | Splits saved to C:\Users\msi\Downloads\files (3)\data\processed
+2026-04-26 16:47:07 | INFO     | __main__ | === Preprocessing complete — data saved to C:\Users\msi\Downloads\files (3)\data\processed ===
+2026-04-26 16:50:25 | INFO     | __main__ | Device: cpu
+2026-04-26 16:50:25 | INFO     | __main__ | Built CNN1D        | Params: 461,509
+2026-04-26 16:50:29 | INFO     | __main__ | DataLoaders | train:177985  val:38140  test:38140
+2026-04-26 16:50:31 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 16:50:31 | INFO     | __main__ |   Training CNN1D        | epochs=80 | batch=32 | device=cpu
+2026-04-26 16:50:31 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 16:56:40 | INFO     | __main__ | Device: cpu
+2026-04-26 16:56:40 | INFO     | __main__ | Built CNN1D        | Params: 461,509
+2026-04-26 16:56:47 | INFO     | __main__ | DataLoaders | train:177985  val:38140  test:38140
+2026-04-26 16:56:49 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 16:56:49 | INFO     | __main__ |   Training CNN1D        | epochs=80 | batch=32 | device=cpu
+2026-04-26 16:56:49 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 22:00:08 | INFO     | __main__ | === EMG Preprocessing Pipeline ===
+2026-04-26 22:00:08 | INFO     | __main__ | Loading EMG CSV: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 22:00:14 | INFO     | __main__ |   Loaded shape: (4237907, 8)  |  Classes: [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 31 32 33 34 35 36]
+2026-04-26 22:00:14 | INFO     | __main__ | Combined dataset: 4237907 samples from 1 files
+2026-04-26 22:00:14 | INFO     | __main__ | Preprocessing signals: shape=(4237907, 8)  fs=1000 Hz
+2026-04-26 22:00:21 | INFO     | __main__ | Windowed: 84755 windows  |  window_size=200  step=50
+2026-04-26 22:00:30 | INFO     | __main__ | After augmentation: 254265 windows
+2026-04-26 22:00:41 | INFO     | __main__ |   [train] X:(177985, 200, 8)  y:(177985,)
+2026-04-26 22:00:43 | INFO     | __main__ |   [val] X:(38140, 200, 8)  y:(38140,)
+2026-04-26 22:00:44 | INFO     | __main__ |   [test] X:(38140, 200, 8)  y:(38140,)
+2026-04-26 22:00:44 | INFO     | __main__ | Splits saved to C:\Users\msi\Downloads\files (3)\data\processed
+2026-04-26 22:00:44 | INFO     | __main__ | === Preprocessing complete — data saved to C:\Users\msi\Downloads\files (3)\data\processed ===
+2026-04-26 22:13:47 | INFO     | __main__ | === Preprocessing Pipeline ===
+2026-04-26 22:13:47 | INFO     | __main__ | Loading: data/raw/emg_gestures/EMG-data.csv
+2026-04-26 22:13:52 | INFO     | __main__ | Columns: ['time', 'channel1', 'channel2', 'channel3', 'channel4', 'channel5', 'channel6', 'channel7', 'channel8', 'class', 'label']
+2026-04-26 22:13:52 | INFO     | __main__ | Shape: (4237907, 11)
+2026-04-26 22:13:52 | INFO     | __main__ | Using channels: ['channel1', 'channel2', 'channel3', 'channel4', 'channel5', 'channel6', 'channel7', 'channel8']
+2026-04-26 22:13:52 | INFO     | __main__ | Label column: label  unique values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+2026-04-26 22:13:52 | INFO     | __main__ | Found 36 unique labels → remapping to 5 emotion classes
+2026-04-26 22:13:53 | INFO     | __main__ | After remap — class dist: {np.int64(0): np.int64(935034), np.int64(1): np.int64(886252), np.int64(2): np.int64(843533), np.int64(3): np.int64(766012), np.int64(4): np.int64(807076)}
+2026-04-26 22:13:53 | INFO     | __main__ | Filtering: notch(50Hz) bandpass(20-450Hz) zscore
+2026-04-26 22:13:54 | INFO     | __main__ | Windowed: 9997 windows (size=200 step=50)
+2026-04-26 22:13:54 | INFO     | __main__ | Augmented: 39988 windows
+2026-04-26 22:13:56 | INFO     | __main__ |   [train] X:(27991, 200, 8)  y:(27991,)
+2026-04-26 22:13:56 | INFO     | __main__ |   [val  ] X:(5998, 200, 8)  y:(5998,)
+2026-04-26 22:13:56 | INFO     | __main__ |   [test ] X:(5999, 200, 8)  y:(5999,)
+2026-04-26 22:13:56 | INFO     | __main__ | Saved to: C:\Users\msi\Downloads\files (3)\data\processed
+2026-04-26 22:13:56 | INFO     | __main__ | === Done: 39988 total windows ===
+2026-04-26 22:15:49 | INFO     | __main__ | Device: cpu
+2026-04-26 22:15:49 | INFO     | __main__ | Built CNN1D        | Params: 461,509
+2026-04-26 22:15:50 | INFO     | __main__ | DataLoaders | train:27991  val:5998  test:5999
+2026-04-26 22:15:53 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 22:15:53 | INFO     | __main__ |   Training CNN1D        | epochs=80 | batch=32 | device=cpu
+2026-04-26 22:15:53 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 22:16:57 | INFO     | __main__ | Ep  1/80 | tr_loss=0.0085 tr_acc=0.999 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 22:21:59 | INFO     | __main__ | Ep  5/80 | tr_loss=0.0000 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 22:29:16 | INFO     | __main__ | Ep 10/80 | tr_loss=0.0000 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 22:32:54 | INFO     | __main__ | Device: cpu
+2026-04-26 22:32:54 | INFO     | __main__ | Built CNN1D        | Params: 461,509
+2026-04-26 22:32:55 | INFO     | __main__ | DataLoaders | train:27991  val:5998  test:5999
+2026-04-26 22:32:58 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 22:32:58 | INFO     | __main__ |   Training CNN1D        | epochs=20 | batch=32 | device=cpu
+2026-04-26 22:32:58 | INFO     | __main__ | ══════════════════════════════════════════════════════════════
+2026-04-26 22:34:48 | INFO     | __main__ | Ep  1/20 | tr_loss=0.0089 tr_acc=0.999 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 22:39:06 | INFO     | __main__ | Early stop ep4
+2026-04-26 22:39:06 | INFO     | __main__ | Training time: 367.5s
+2026-04-26 22:39:09 | INFO     | __main__ |   Avg inference: 1.65ms  FPS equiv: 607.1
+2026-04-26 22:39:09 | INFO     | __main__ | CNN1D        | BestVal=1.0000 | Test=1.0000 | Inf=1.65ms
+2026-04-26 22:43:55 | INFO     | __main__ | Device: cpu
+2026-04-26 22:43:55 | INFO     | __main__ | Built CNN1D        | Params: 461,509
+2026-04-26 22:43:55 | INFO     | __main__ | DataLoaders | train:27991 val:5998 test:5999
+2026-04-26 22:43:55 | INFO     | __main__ | Actual classes in data: [0] (n=1)
+2026-04-26 22:43:57 | INFO     | __main__ | =======================================================
+2026-04-26 22:43:57 | INFO     | __main__ | Training CNN1D        | epochs=20 | device=cpu
+2026-04-26 22:43:57 | INFO     | __main__ | =======================================================
+2026-04-26 22:44:56 | INFO     | __main__ | Ep  1/20 | tr_loss=0.0079 tr_acc=0.999 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 22:46:04 | INFO     | __main__ | Ep  2/20 | tr_loss=0.0000 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 22:48:01 | INFO     | __main__ | Ep  3/20 | tr_loss=0.0000 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 22:49:56 | INFO     | __main__ | Ep  4/20 | tr_loss=0.0000 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 22:49:56 | INFO     | __main__ | Early stopping at epoch 4
+2026-04-26 22:49:56 | INFO     | __main__ | Training time: 358.6s
+2026-04-26 22:50:02 | INFO     | __main__ | Avg inference: 3.76ms | FPS equiv: 265.8
+2026-04-26 22:50:02 | INFO     | __main__ | CNN1D        | BestVal=1.0000 | Test=1.0000 | Inf=3.76ms
+2026-04-26 22:50:02 | INFO     | __main__ | 
+              precision    recall  f1-score   support
+
+     Neutral       1.00      1.00      1.00      5999
+
+    accuracy                           1.00      5999
+   macro avg       1.00      1.00      1.00      5999
+weighted avg       1.00      1.00      1.00      5999
+
+2026-04-26 22:50:05 | INFO     | __main__ | Training graph saved: C:\Users\msi\Downloads\files (3)\runs\cnn1d_training.png
+2026-04-26 22:50:06 | INFO     | __main__ | Confusion matrix saved: C:\Users\msi\Downloads\files (3)\runs\cnn1d_confusion.png
+2026-04-26 22:50:06 | INFO     | __main__ | Results saved to runs/cnn1d_results.json
+2026-04-26 22:50:06 | INFO     | __main__ | Done! Check runs/ folder for graphs.
+2026-04-26 22:54:07 | INFO     | __main__ | Device: cpu
+2026-04-26 22:54:07 | INFO     | __main__ | Built LSTM         | Params: 570,117
+2026-04-26 22:54:08 | INFO     | __main__ | DataLoaders | train:27991 val:5998 test:5999
+2026-04-26 22:54:08 | INFO     | __main__ | Actual classes in data: [0] (n=1)
+2026-04-26 22:54:11 | INFO     | __main__ | =======================================================
+2026-04-26 22:54:11 | INFO     | __main__ | Training LSTM         | epochs=20 | device=cpu
+2026-04-26 22:54:11 | INFO     | __main__ | =======================================================
+2026-04-26 22:59:28 | INFO     | __main__ | Ep  1/20 | tr_loss=0.0152 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 22:59:45 | INFO     | __main__ | Model loaded: CNN1D → C:\Users\msi\Downloads\files (3)\models\cnn1d_best.pt  |  Device: cpu
+2026-04-26 23:01:21 | INFO     | __main__ | Model loaded: CNN1D → C:\Users\msi\Downloads\files (3)\models\cnn1d_best.pt  |  Device: cpu
+2026-04-26 23:01:21 | INFO     | __main__ | Loading signal source: 0
+2026-04-26 23:02:44 | INFO     | __main__ | Model loaded: CNN1D → C:\Users\msi\Downloads\files (3)\models\cnn1d_best.pt  |  Device: cpu
+2026-04-26 23:02:44 | INFO     | __main__ | Loading signal source: 0
+2026-04-26 23:04:36 | INFO     | __main__ | Ep  2/20 | tr_loss=0.0000 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 23:06:19 | INFO     | __main__ | Model loaded: CNN1D → C:\Users\msi\Downloads\files (3)\models\cnn1d_best.pt  |  Device: cpu
+2026-04-26 23:06:19 | INFO     | __main__ | Loading signal source: 0
+2026-04-26 23:10:01 | INFO     | __main__ | Ep  3/20 | tr_loss=0.0000 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 23:10:48 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-26 23:11:03 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-26 23:11:05 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-26 23:11:05 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 23:11:20 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-26 23:11:21 | INFO     | __main__ | Source opened: 1280x720 | model=CNN1D
+2026-04-26 23:11:21 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-26 23:11:27 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:11:31 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:11:36 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:11:40 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:11:45 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:11:50 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:11:54 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:11:59 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:04 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:10 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:15 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:20 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:26 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:31 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:36 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:41 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:46 | ERROR    | utils | DB write failed: no such table: emotion_events
+2026-04-26 23:12:49 | INFO     | utils | Database initialised at C:\Users\msi\Downloads\files (3)\data\emg_results.db
+2026-04-26 23:13:37 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-26 23:13:37 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-26 23:13:40 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-26 23:13:40 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 23:14:04 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-26 23:14:05 | INFO     | __main__ | Source opened: 1280x720 | model=CNN1D
+2026-04-26 23:14:05 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-26 23:14:05 | INFO     | __main__ | Stream ended.
+2026-04-26 23:14:05 | INFO     | __main__ | === Inference stopped ===
+2026-04-26 23:15:33 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-26 23:15:33 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-26 23:15:37 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-26 23:15:37 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 23:16:00 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-26 23:17:38 | INFO     | __main__ | Stream ended.
+2026-04-26 23:17:38 | INFO     | __main__ | === Inference stopped ===
+2026-04-26 23:18:38 | INFO     | __main__ | Ep  4/20 | tr_loss=0.0000 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-26 23:18:38 | INFO     | __main__ | Early stopping at epoch 4
+2026-04-26 23:18:38 | INFO     | __main__ | Training time: 1466.9s
+2026-04-26 23:18:53 | INFO     | __main__ | Avg inference: 8.42ms | FPS equiv: 118.7
+2026-04-26 23:18:53 | INFO     | __main__ | LSTM         | BestVal=1.0000 | Test=1.0000 | Inf=8.42ms
+2026-04-26 23:18:53 | INFO     | __main__ | 
+              precision    recall  f1-score   support
+
+     Neutral       1.00      1.00      1.00      5999
+
+    accuracy                           1.00      5999
+   macro avg       1.00      1.00      1.00      5999
+weighted avg       1.00      1.00      1.00      5999
+
+2026-04-26 23:18:54 | INFO     | __main__ | Training graph saved: C:\Users\msi\Downloads\files (3)\runs\lstm_training.png
+2026-04-26 23:18:55 | INFO     | __main__ | Confusion matrix saved: C:\Users\msi\Downloads\files (3)\runs\lstm_confusion.png
+2026-04-26 23:18:55 | INFO     | __main__ | Results saved to runs/lstm_results.json
+2026-04-26 23:18:55 | INFO     | __main__ | Done! Check runs/ folder for graphs.
+2026-04-26 23:23:53 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-26 23:23:53 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-26 23:23:55 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-26 23:23:55 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 23:24:04 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-26 23:24:04 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-26 23:24:04 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-26 23:24:47 | INFO     | __main__ | Stream ended.
+2026-04-26 23:24:48 | INFO     | __main__ | === Inference stopped ===
+2026-04-26 23:25:09 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-26 23:25:09 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-26 23:25:10 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-26 23:25:10 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 23:25:18 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-26 23:25:19 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-26 23:25:19 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-26 23:26:01 | INFO     | __main__ | Stream ended.
+2026-04-26 23:26:01 | INFO     | __main__ | === Inference stopped ===
+2026-04-26 23:27:54 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-26 23:27:54 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-26 23:27:55 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-26 23:27:55 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-26 23:28:03 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-26 23:28:04 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-26 23:28:04 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-26 23:28:18 | INFO     | __main__ | User quit.
+2026-04-26 23:28:18 | INFO     | __main__ | === Inference stopped ===
+2026-04-28 11:29:44 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-28 11:29:44 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-28 11:30:15 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-28 11:30:15 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-28 11:30:24 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-28 11:30:25 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-28 11:30:25 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-28 11:30:52 | INFO     | __main__ | User quit.
+2026-04-28 11:30:52 | INFO     | __main__ | === Inference stopped ===
+2026-04-28 11:42:33 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-28 11:42:33 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-28 11:42:34 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-28 11:42:34 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-28 11:42:45 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-28 11:42:45 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-28 11:42:45 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-28 11:42:52 | INFO     | __main__ | User quit.
+2026-04-28 11:42:52 | INFO     | __main__ | === Inference stopped ===
+2026-04-28 11:57:16 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-28 11:57:16 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-28 11:57:18 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-28 11:57:18 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-28 11:57:27 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-28 11:57:28 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-28 11:57:28 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-28 11:58:26 | INFO     | __main__ | Stream ended.
+2026-04-28 11:58:26 | INFO     | __main__ | === Inference stopped ===
+2026-04-28 18:08:02 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-28 18:08:02 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-28 18:08:03 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-28 18:08:03 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-28 18:08:12 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-28 18:08:12 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-28 18:08:12 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-28 18:09:09 | INFO     | __main__ | Stream ended.
+2026-04-28 18:09:09 | INFO     | __main__ | === Inference stopped ===
+2026-04-28 18:15:48 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-28 18:15:49 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-28 18:15:50 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-28 18:15:50 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-28 18:15:59 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-28 18:16:00 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-28 18:16:00 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-28 18:16:58 | INFO     | __main__ | Stream ended.
+2026-04-28 18:16:58 | INFO     | __main__ | === Inference stopped ===
+2026-04-28 18:18:01 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-28 18:18:01 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-28 18:18:02 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-28 18:18:02 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-28 18:18:11 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-28 18:18:11 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-28 18:18:11 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-28 18:19:06 | INFO     | __main__ | Stream ended.
+2026-04-28 18:19:06 | INFO     | __main__ | === Inference stopped ===
+2026-04-29 10:17:58 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-29 10:17:58 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-29 10:18:01 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-29 10:18:01 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-29 10:18:12 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-29 10:18:12 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-29 10:18:12 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-29 10:28:57 | INFO     | __main__ | === Preprocessing Pipeline ===
+2026-04-29 10:28:57 | INFO     | __main__ | Loading: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-29 10:29:08 | INFO     | __main__ | Columns: ['time', 'channel1', 'channel2', 'channel3', 'channel4', 'channel5', 'channel6', 'channel7', 'channel8', 'class', 'label']
+2026-04-29 10:29:08 | INFO     | __main__ | Shape: (4237907, 11)
+2026-04-29 10:29:08 | INFO     | __main__ | Using channels: ['channel1', 'channel2', 'channel3', 'channel4', 'channel5', 'channel6', 'channel7', 'channel8']
+2026-04-29 10:29:08 | INFO     | __main__ | Label column: label  unique values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+2026-04-29 10:29:09 | INFO     | __main__ | Found 36 unique labels → remapping to 5 emotion classes
+2026-04-29 10:29:11 | INFO     | __main__ | After remap — class dist: {np.int64(0): np.int64(935034), np.int64(1): np.int64(886252), np.int64(2): np.int64(843533), np.int64(3): np.int64(766012), np.int64(4): np.int64(807076)}
+2026-04-29 10:29:11 | INFO     | __main__ | Filtering: notch(50Hz) bandpass(20-450Hz) zscore
+2026-04-29 10:29:12 | INFO     | __main__ | Windowed: 9997 windows (size=200 step=50)
+2026-04-29 10:29:14 | INFO     | __main__ | Augmented: 39988 windows
+2026-04-29 10:29:16 | INFO     | __main__ |   [train] X:(27991, 200, 8)  y:(27991,)
+2026-04-29 10:29:16 | INFO     | __main__ |   [val  ] X:(5998, 200, 8)  y:(5998,)
+2026-04-29 10:29:16 | INFO     | __main__ |   [test ] X:(5999, 200, 8)  y:(5999,)
+2026-04-29 10:29:16 | INFO     | __main__ | Saved to: C:\Users\msi\Downloads\files (3)\data\processed
+2026-04-29 10:29:17 | INFO     | __main__ | === Done: 39988 total windows ===
+2026-04-29 10:29:45 | INFO     | __main__ | Device: cpu
+2026-04-29 10:29:45 | INFO     | __main__ | Built CNN1D        | Params: 461,509
+2026-04-29 10:29:46 | INFO     | __main__ | DataLoaders | train:27991 val:5998 test:5999
+2026-04-29 10:29:46 | INFO     | __main__ | Actual classes in data: [0] (n=1)
+2026-04-29 10:29:51 | INFO     | __main__ | =======================================================
+2026-04-29 10:29:51 | INFO     | __main__ | Training CNN1D        | epochs=20 | device=cpu
+2026-04-29 10:29:51 | INFO     | __main__ | =======================================================
+2026-04-29 10:31:35 | INFO     | __main__ | Ep  1/20 | tr_loss=0.0065 tr_acc=1.000 | vl_loss=0.0000 vl_acc=1.000
+2026-04-29 10:33:12 | INFO     | __main__ | === Preprocessing Pipeline ===
+2026-04-29 10:33:12 | INFO     | __main__ | Loading: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-29 10:33:17 | INFO     | __main__ | Columns: ['time', 'channel1', 'channel2', 'channel3', 'channel4', 'channel5', 'channel6', 'channel7', 'channel8', 'class', 'label']
+2026-04-29 10:33:17 | INFO     | __main__ | Shape: (4237907, 11)
+2026-04-29 10:33:17 | INFO     | __main__ | Using channels: ['channel1', 'channel2', 'channel3', 'channel4', 'channel5', 'channel6', 'channel7', 'channel8']
+2026-04-29 10:33:17 | INFO     | __main__ | Label column: label  unique values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+2026-04-29 10:33:18 | INFO     | __main__ | Found 36 unique labels → remapping to 5 emotion classes
+2026-04-29 10:33:18 | INFO     | __main__ | After remap — class dist: {np.int64(0): np.int64(935034), np.int64(1): np.int64(886252), np.int64(2): np.int64(843533), np.int64(3): np.int64(766012), np.int64(4): np.int64(807076)}
+2026-04-29 10:33:18 | INFO     | __main__ | Filtering: notch(50Hz) bandpass(20-450Hz) zscore
+2026-04-29 10:33:19 | INFO     | __main__ | Windowed: 9997 windows (size=200 step=50)
+2026-04-29 10:33:19 | INFO     | __main__ | Augmented: 39988 windows
+2026-04-29 10:33:21 | INFO     | __main__ |   [train] X:(27991, 200, 8)  y:(27991,)
+2026-04-29 10:33:21 | INFO     | __main__ |   [val  ] X:(5998, 200, 8)  y:(5998,)
+2026-04-29 10:33:21 | INFO     | __main__ |   [test ] X:(5999, 200, 8)  y:(5999,)
+2026-04-29 10:33:21 | INFO     | __main__ | Saved to: C:\Users\msi\Downloads\files (3)\data\processed
+2026-04-29 10:33:21 | INFO     | __main__ | === Done: 39988 total windows ===
+2026-04-29 10:37:19 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-29 10:37:19 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-29 10:37:20 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-29 10:37:20 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-29 10:37:30 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-29 10:37:30 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-29 10:37:30 | INFO     | __main__ | === Inference running | Press Q to quit ===
+2026-04-29 10:38:27 | INFO     | __main__ | Stream ended.
+2026-04-29 10:38:27 | INFO     | __main__ | === Inference stopped ===
+2026-04-29 10:46:00 | INFO     | __main__ | Loading YOLOv8: models/yolov8n.pt
+2026-04-29 10:46:00 | INFO     | __main__ | YOLOv8 loaded successfully
+2026-04-29 10:46:02 | INFO     | __main__ | EMG Model loaded: CNN1D on cpu
+2026-04-29 10:46:02 | INFO     | __main__ | Loading EMG signal buffer from: C:\Users\msi\Downloads\files (3)\data\raw\emg_gestures\EMG-data.csv
+2026-04-29 10:46:12 | INFO     | __main__ | EMG buffer ready: 4237907 samples x 8 channels
+2026-04-29 10:46:12 | INFO     | __main__ | Source opened: 3840x2160 | model=CNN1D
+2026-04-29 10:46:12 | INFO     | __main__ | === Inference running | Press Q to quit ===

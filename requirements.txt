@@ -1,0 +1,52 @@
+# requirements.txt
+# EMG-Based Facial Muscle Signal Detection — Emotion & Stress Recognition
+#
+# Generate your own pinned versions after installing with:
+#   pip freeze > requirements.txt
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+
+# ─── Deep Learning ────────────────────────────────────────────────────────────
+torch>=2.2.0
+torchvision>=0.17.0
+
+# ─── Signal Processing ────────────────────────────────────────────────────────
+scipy>=1.12.0
+numpy>=1.26.0
+
+# ─── Data Handling ────────────────────────────────────────────────────────────
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# ─── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
+opencv-python>=4.9.0
+
+# ─── Web Dashboard ────────────────────────────────────────────────────────────
+flask>=3.0.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+PyYAML>=6.0
+tqdm>=4.66.0
+
+# ─── Kaggle Dataset Download ──────────────────────────────────────────────────
+kaggle>=1.6.0
+# After install, set up credentials:
+#   mkdir ~/.kaggle && cp kaggle.json ~/.kaggle/ && chmod 600 ~/.kaggle/kaggle.json
+#
+# Download datasets:
+#   kaggle datasets download -d kyr0gane/emg-data-for-gestures -p data/raw/
+#   kaggle datasets download -d akram24/ninapro-db5 -p data/raw/
+
+# ─── Optional: GPU (CUDA 12.x) ────────────────────────────────────────────────
+# torch>=2.2.0+cu121
+# torchvision>=0.17.0+cu121
+# --extra-index-url https://download.pytorch.org/whl/cu121
+
+# ─── Optional: Jetson Nano (ONNX export for TensorRT) ─────────────────────────
+# onnxruntime>=1.17.0
+# onnx>=1.16.0
+
+# ─── Optional: Live serial EMG hardware ───────────────────────────────────────
+# pyserial>=3.5
